@@ -1,4 +1,6 @@
 import React from 'react'
+import { FaTwitter,FaAirbnb,FaLinkedin,FaGithub } from "react-icons/fa";
+
 
 function Footer() {
   return (
@@ -28,11 +30,10 @@ function Footer() {
           <li>Redux</li>
         </ul>
         <ul><b className='text-lg'>Social Links</b>
-          <li>Linkedin</li>
-          <li>Github</li>
-          <li>Codewars</li>
-          <li>Airbnb</li>
-          <li>Twitter</li>
+          <li><FaLinkedin/></li>
+          <li><FaGithub/></li>
+          <li><FaAirbnb /></li>
+          <li><FaTwitter /></li>
         </ul>
       </div>
 
