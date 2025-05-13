@@ -49,8 +49,8 @@ export default function Navbar() {
           <a href="#contact" className="hover:text-purple-300 transition">Contact</a>
         </div>
         <div className="hidden lg:flex gap-3 items-center">
-          <a href="" className="border-2 border-purple-700 px-4 py-2 rounded-md text-purple-700 bg-white">SignUp</a>
-          <a href="" className="border-2 border-slate-50 px-4 py-2 bg-purple-500 text-white rounded-md ">Login</a>
+          <a href="" className="border-2 border-purple-700 px-4 py-2 rounded-md text-purple-700 bg-white">LinkedIn</a>
+          <a href="" className="border-2 border-slate-50 px-4 py-2 bg-purple-500 text-white rounded-md ">GitHub</a>
         </div>
       </div>
     </motion.nav>
