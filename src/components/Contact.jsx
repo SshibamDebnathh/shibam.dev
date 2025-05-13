@@ -1,0 +1,39 @@
+import React from 'react'
+import { FaEnvelope } from "react-icons/fa";
+
+function Contact() {
+  return (
+    <>
+      <div className='flex basis-1/2 space-y-10 min-w-80 bg-purple-500 rounded-xl flex-wrap justify-evenly hover:shadow-2xl hover:shadow-purple-300 text-xl border-2 border-purple-300 px-10 m-10 gap-5 pb-10' id="contact">
+        <div className='flex flex-col lg:gap-12 gap-5 lg:py-10 py-5 font-sans font-medium'>
+          <h1 className='text-4xl text-center text-white font-sans'>Lets talk</h1>
+          <div
+          className='flex flex-col gap-5 lg:py-6 px-5 justify-center flex-wrap'>
+          
+            <p> <span className='text-white'>Lets talk </span>on something great together</p>
+            <p className='flex items-center gap-2'><FaEnvelope />shibam.hi@gmail.com</p>
+          </div>
+        </div>
+        <form action="/submit" method="POST" className='flex flex-col gap-3 lg:w-72 md:w-60 lg:p-6 border-2 border-black bg-gray-700 rounded-xl lg:text-lg p-5 text-sm min-w-56'>
+          <label htmlFor="name" className='text-white'>Name</label>
+          <input type="text" id="name" name="name" required className='rounded-md lg:p-2 outline-purple-400 p-1' />
+
+          <label htmlFor="email" className='text-white'>Email</label>
+          <input type="email" id="email" name="email" required className='rounded-md lg:p-2 outline-purple-400 p-1' />
+
+          <label htmlFor="message" className='text-white'>Message</label>
+          <textarea id="message" name="message" rows="4" required className='rounded-md lg:p-2 p-1 outline-purple-400'></textarea>
+
+          <button
+            type="submit"
+            className='border-2 border-white bg-purple-600 text-white py-2 px-5 rounded-lg text-center mx-auto'>
+            Send</button>
+        </form>
+
+      </div>
+    </>
+
+  )
+}
+
+export default Contact
