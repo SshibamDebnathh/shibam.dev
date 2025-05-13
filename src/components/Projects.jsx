@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 export default function Projects() {
   const projects = [
     {
-      title: "10MegaBlog",
+      title: "Appwrite-Blog",
       link: "https://10megablog.vercel.app/",
     },
     {

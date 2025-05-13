@@ -29,12 +29,15 @@ function Footer() {
           <li>Nodejs</li>
           <li>Redux</li>
         </ul>
-        <ul><b className='text-lg'>Social Links</b>
+        <div>
+        <b className='text-lg'>Social Links</b>
+        <ul className='flex gap-2'>
           <li><FaLinkedin/></li>
           <li><FaGithub/></li>
           <li><FaAirbnb /></li>
           <li><FaTwitter /></li>
         </ul>
+        </div>
       </div>
 
     </div>
