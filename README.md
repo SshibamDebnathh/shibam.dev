@@ -95,7 +95,7 @@ bun run preview
 
 
 ```md
-![Portfolio Demo](/src/assets/portfolio.gif)
+![Portfolio Demo](./src/assets/portfolio.gif)
 ```
 
 ---
