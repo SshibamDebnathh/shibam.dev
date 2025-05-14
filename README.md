@@ -30,6 +30,12 @@ This is my personal portfolio website built with **React**, **Vite**, **Tailwind
 * 🎯 Performance-optimized with Vite
 
 ---
+## 🎥 GIF 
+
+
+![Portfolio Demo](./public/demo.gif)
+
+---
 
 ## 📦 Getting Started
 
@@ -87,16 +93,6 @@ To manually build and preview:
 ```bash
 bun run build
 bun run preview
-```
-
----
-
-## 🎥 GIF 
-
-
-```md
-
-![Portfolio Demo](./public/demo.gif)
 ```
 
 ---
