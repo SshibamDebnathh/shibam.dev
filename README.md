@@ -95,7 +95,9 @@ bun run preview
 
 
 ```md
-![Portfolio Demo](./src/assets/portfolio.gif)
+<!-- <img src='./public/homepage.png' width='100%' > -->
+<img src='./src/assets/portfolio.gif' width='100%' >
+<!-- <img src='./public/homepage.png' width='100%' > -->
 ```
 
 ---
