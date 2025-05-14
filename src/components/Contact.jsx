@@ -4,17 +4,17 @@ import { FaEnvelope } from "react-icons/fa";
 function Contact() {
   return (
     <>
-      <div className='flex basis-1/2 space-y-10 min-w-80 bg-purple-500 rounded-xl flex-wrap justify-evenly hover:shadow-2xl hover:shadow-purple-300 text-xl border-2 border-purple-300 px-10 m-10 gap-5 pb-10' id="contact">
+      <div className='flex lg:basis-1/2 space-y-10 min-w-1/3 bg-purple-500 rounded-xl flex-wrap justify-evenly hover:shadow-2xl hover:shadow-purple-300 text-xl border-2 border-purple-300 lg:px-10 m-10 gap-5 px-5 pb-9' id="contact">
         <div className='flex flex-col lg:gap-12 gap-5 lg:py-10 py-5 font-sans font-medium'>
-          <h1 className='text-4xl text-center text-white font-sans'>Lets talk</h1>
+          <h1 className='lg:text-4xl text-2xl text-center text-white font-sans'>Lets talk</h1>
           <div
-          className='flex flex-col gap-5 lg:py-6 px-5 justify-center flex-wrap'>
+          className='flex flex-col lg:gap-5 lg:py-6 px-5 justify-center flex-wrap'>
           
             <p> <span className='text-white'>Lets talk </span>on something great together</p>
             <p className='flex items-center gap-2'><FaEnvelope />shibam.hi@gmail.com</p>
           </div>
         </div>
-        <form action="/submit" method="POST" className='flex flex-col gap-3 lg:w-72 md:w-60 lg:p-6 border-2 border-black bg-gray-700 rounded-xl lg:text-lg p-5 text-sm min-w-56'>
+        <form action="/submit" method="POST" className='flex flex-col gap-3 lg:w-72 md:w-60 lg:p-6 border-2 border-black bg-gray-700 rounded-xl lg:text-lg p-5 text-sm min-w-44'>
           <label htmlFor="name" className='text-white'>Name</label>
           <input type="text" id="name" name="name" required className='rounded-md lg:p-2 outline-purple-400 p-1' />
 
