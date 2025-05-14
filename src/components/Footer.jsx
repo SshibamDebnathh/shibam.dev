@@ -4,7 +4,7 @@ import { FaTwitter,FaAirbnb,FaLinkedin,FaGithub } from "react-icons/fa";
 
 function Footer() {
   return (
-    <div className='flex flex-row justify-between bg-slate-950 gap-10 w-full p-10 min-h-min text-gray-400'>
+    <div className='flex flex-row justify-between bg-slate-950 gap-10 lg:w-full md:w-full p-10 min-h-min text-gray-400'>
       <div className='flex flex-col gap-10'>
       <div className="text-2xl font-bold text-purple-400">
           Shibam.dev
@@ -31,7 +31,7 @@ function Footer() {
         </ul>
         <div>
         <b className='text-lg'>Social Links</b>
-        <ul className='flex gap-2'>
+        <ul className='flex flex-wrap gap-2 '>
           <li><FaLinkedin/></li>
           <li><FaGithub/></li>
           <li><FaAirbnb /></li>

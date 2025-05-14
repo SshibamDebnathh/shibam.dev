@@ -27,9 +27,9 @@ export default function HeroSection() {
         </div>
 
       </motion.div>
-      <div className="flex items-center animate-bounce mt-10 px-20">
-        <div className="absolute border-4 border-purple-300 z-0 skew-x-12 skew-y-12 shadow-purple-300 shadow-2xl lg:w-40 lg:h-48 w-32 h-40" ></div>
-        <img src={shibam} alt="shibam" className="relative rounded-full shadow-purple-400 shadow-2xl border-4 p-2 border-purple-300 z-20 lg:w-40 lg:h-40 w-32 h-32" />
+      <div className="flex items-center animate-bounce mt-10 px-20 justify-center">
+        <div className="absolute border-4 border-purple-300 z-0 skew-x-12 skew-y-12 shadow-purple-300 shadow-2xl lg:w-40 lg:h-48 w-32 h-40 min-w-32" ></div>
+        <img src={shibam} alt="shibam" className="relative rounded-full shadow-purple-400 shadow-2xl border-4 p-2 border-purple-300 z-20 lg:w-40 lg:h-40 w-32 h-32 min-w-28" />
         <div className=" absolute border-4 border-purple-300 z-10 -skew-x-12 -skew-y-12 shadow-purple-300 shadow-2xl lg:w-40 lg:h-48 w-32 h-40"></div>
       </div>
     </div>
