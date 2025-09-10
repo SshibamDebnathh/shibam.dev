@@ -15,7 +15,7 @@ export default function HeroSection() {
         transition={{ duration: 0.6 }}
         className="flex flex-col text-center bg-gray-500 lg:h-80 rounded-lg lg:px-10 px-3 justify-center items-center lg:gap-5 border-2 border-purple-300 shadow-purple-400 shadow-xl lg:ml-14 h-56 text-purple-200 max-w-1/3"
       >
-        <h1 className="lg:text-4xl font-bold mb-4">Hi, I'm <strong className="text-purple-300">Shibam</strong> 👋</h1>
+        <h1 className="lg:text-4xl font-bold mb-4">Hi, I'm <strong className="text-yellow-500">Shibam Debnath</strong> 👋</h1>
         <p className="text-base">Frontend Developer | React | Tailwind</p>
         <div className="mt-6">
           <a

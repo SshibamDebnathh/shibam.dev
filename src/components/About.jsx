@@ -1,9 +1,16 @@
 import React from 'react'
+import sshibam from '../assets/sshibam.png'
 
 function About() {
     return (
-        <div className='flex p-10 w-full justify-start'>
-            <div className="flex flex-col about-section lg:max-w-2xl p-6 font-sans border-2 border-white bg-purple-500 m-10 rounded-xl">
+        <div className='flex p-3 w-full justify-between gap-2 min-w-96 md:flex-row flex-col items-center'>
+             <div className='p-2 bg-pur-100 border-4 border-purple-300 max-w-[300px] rounded-full flex flex-col justify-center items-center m-auto'>
+            <img src={sshibam} 
+            alt=""
+            className='border-4 border-white rounded-full'
+            />
+           </div>
+            <div className="flex flex-col about-section max-w-xl p-6 font-sans border-2 border-white bg-gray-400 m-10 rounded-xl flex-1" id='about'>
                 <h2 className="text-2xl font-bold mb-4">About Me</h2>
                 <p className="mb-4">
                     Hey, I’m <strong>Shibam Debnath</strong> — a frontend developer who loves building clean, user-friendly web apps with <strong>React</strong> and <strong>JavaScript</strong>.
@@ -28,10 +35,10 @@ function About() {
                     <strong>Let’s connect:</strong><br />
                     📧 <a href="mailto:shibam.hi@gmail.com" className="text-white underline">shibam.hi@gmail.com</a><br />
                     💻 <a href="https://github.com/SshibamDebnathh" target="_blank" rel="noopener noreferrer" className="text-white underline">GitHub</a><br />
-                    🔗 <a href="https://www.linkedin.com/in/shibam-debnath-aa5a12151/" target="_blank" rel="noopener noreferrer" className="text-white underline">LinkedIn</a>
+                    🔗 <a href="https://www.linkedin.com/in/shibamdebnath/" target="_blank" rel="noopener noreferrer" className="text-white underline">LinkedIn</a>
                 </p>
             </div>
-
+          
         </div>
     )
 }

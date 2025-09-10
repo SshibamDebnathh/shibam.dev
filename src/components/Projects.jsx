@@ -9,7 +9,7 @@ export default function Projects() {
     },
     {
       title: "Note Detection App",
-      link: "#",
+      link: "https://note-detection-app.vercel.app/",
     },
   ];
 

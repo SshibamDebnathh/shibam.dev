@@ -49,7 +49,7 @@ export default function Navbar() {
           <a href="#contact" className="hover:text-purple-300 transition">Contact</a>
         </div>
         <div className="hidden lg:flex gap-3 items-center text-3xl">
-          <a href="https://www.linkedin.com/in/shibam-debnath-aa5a12151/"
+          <a href="https://www.linkedin.com/in/shibamdebnath/"
             target="_blank"
             className="border-2 border-purple-200 px-4 py-1 rounded-md text-purple-700 bg-white"><FaLinkedin /></a>
           <a href="https://github.com/SshibamDebnathh"
