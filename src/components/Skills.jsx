@@ -10,13 +10,19 @@ export default function Skills() {
       <div className="flex w-full overflow-x-hidden items-center gap-5 flex-wrap lg:flex-nowrap justify-center p-10">
         
           {techStack.map(([skill,url,hueA,hueB],i) => (
-            <div
+            <motion.div
               key={i}
-              className = "flex bg-indigo-200 text-black px-4 py-2 rounded-xl text-sm lg:w-full font-medium flex-col items-center lg:min-h-56 lg:max-w-48 justify-center w-24 border-1 border-white shadow-xl lg:hover:scale-200 transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 shadow-black"
+              initial={{ x: 100, opacity: 0 }}
+              whileInView={{ x: 0, opacity: 1 }}
+              exit={{ x: 100, opacity: 0 }}
+              viewport={{ once: false, amount: 0.5 }}
+              animate={{x:100}}
+              transition={transition}
+              className = "flex bg-indigo-200 text-black px-4 py-2 rounded-xl text-sm lg:w-full font-medium flex-col items-center lg:min-h-56 lg:max-w-48 justify-center w-24 border-1 border-white shadow-xl lg:hover:scale-200 transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 shadow-black hover:backdrop-blur-xl"
             >
               <img src={url} alt={skill}/>
               <h1>{skill}</h1>
-            </div>
+            </motion.div>
           ))}
         
       </div>
@@ -33,4 +39,8 @@ const techStack = [
   ["VS Code", "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg", 110, 180],
   ["MongoDB", "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg", 130, 190],
 ]
-
+const transition = {
+  duration: 0.8,
+  delay: 0.5,
+  ease: [0, 0.71, 0.2, 1.01],
+}
